@@ -2,12 +2,12 @@ import os
 import shutil
 
 base_path = os.path.dirname(__file__)
-input_path = os.path.join(base_path, "../input")
-tmp_path = os.path.join(base_path, "../tmp")
-data_path = os.path.join(base_path, "../data")
-output_path = os.path.join(base_path, "output")
+input_path = os.path.join(base_path, '../input')
+tmp_path = os.path.join(base_path, '../tmp')
+data_path = os.path.join(base_path, '../data')
+output_path = os.path.join(base_path, '../output')
 
-odds_columns = ["H", "D", "A"]
+odds_columns = ['H', 'D', 'A']
 
 
 def replace_directory(dir_path):
